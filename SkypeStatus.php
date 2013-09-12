@@ -41,7 +41,4 @@ class SkypeStatus {
 
 }
 
-$mySkype = new SkypeStatus($_REQUEST["u"]);
-echo $mySkype->getStatusString();
-
 ?>
