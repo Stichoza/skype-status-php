@@ -31,7 +31,7 @@ class SkypeStatus {
     }
 
     public function getStatusCode() {
-        return ($this->checkObject()) ? $this->xmlObject->Status->presence[0] : null;
+        return ($this->checkObject()) ? $this->xmlObject->Status->statusCode : null;
     }
 
     public function getStatusString() {
