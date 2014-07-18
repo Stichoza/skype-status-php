@@ -21,8 +21,7 @@ class SkypeStatus {
     protected $xmlObject;
 
     public function __construct($username) {
-        $xmlString = @file_get_contents("http://mystatus.skype.com/" . $username .
-            ".xml");
+        $xmlString = @file_get_contents("http://mystatus.skype.com/" . $username . ".xml");
         return ($xmlString) ? $this->xmlObject = new SimpleXMLElement($xmlString) : null;
     }
 
@@ -35,8 +34,7 @@ class SkypeStatus {
     }
 
     public function getStatusString() {
-        return ($this->checkObject()) ? $this->languageArray[intval($this->
-            getStatusCode())] : null;
+        return ($this->checkObject()) ? $this->languageArray[(int)$this->getStatusCode()] : null;
     }
 
 }
