@@ -1,14 +1,15 @@
-<?php
+<?php namespace Stichoza\Skype;
 
-/*
-*  @name:      Get user's Skype online status
-*  @author:    Levan Velijanashvili <admin@stichoza.com>
-*  @version:   1.0
-*/
-
+/**
+ * Get user's Skype online status
+ *
+ * @author      Levan Velijanashvili <me@stichoza.com>
+ * @link        http://stichoza.com/
+ * @version     v2.0.3
+ */
 class SkypeStatus {
 
-    private $languageArray = Array(
+    private $languageArray = array(
         "Unknown",
         "Offline",
         "Online",
