@@ -5,7 +5,7 @@
  *
  * @author      Levan Velijanashvili <me@stichoza.com>
  * @link        http://stichoza.com/
- * @version     v2.0.3
+ * @version     v2.0.0
  */
 class SkypeStatus {
 
