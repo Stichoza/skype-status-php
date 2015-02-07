@@ -1,0 +1,28 @@
+{
+    "name": "stichoza/skype-status-php",
+    "description": "Get Skype user's online status",
+    "keywords": ["skype", "status", "php", "online", "offline"],
+    "license": "MIT",
+    "homepage": "http://github.com/Stichoza/skype-status-php",
+    "authors": [
+        {
+            "name": "Levan Velijanashvili",
+            "email": "me@stichoza.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.29"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0",
+        "phpunit/phpunit": "~3.7"
+    },
+    "autoload": {
+        "psr-0": {
+            "Stichoza\\Skype\\": "src/"
+        },
+        "psr-4": {
+            "Stichoza\\Skype\\": "src/Stichoza/Skype/"
+        }
+    }
+}
