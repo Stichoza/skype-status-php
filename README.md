@@ -1,7 +1,7 @@
 skype-status-php
 ================
 
-[![Latest Stable Version](https://poser.pugx.org/stichoza/skype-status-php/v/stable.svg)](https://packagist.org/packages/stichoza/skype-status-php) [![Total Downloads](https://poser.pugx.org/stichoza/skype-status-php/downloads.svg)](https://packagist.org/packages/stichoza/skype-status-php) [![Latest Unstable Version](https://poser.pugx.org/stichoza/skype-status-php/v/unstable.svg)](https://packagist.org/packages/stichoza/skype-status-php) [![License](https://poser.pugx.org/stichoza/skype-status-php/license.svg)](https://packagist.org/packages/stichoza/skype-status-php)
+[![Latest Stable Version](https://img.shields.io/packagist/v/Stichoza/skype-status-php.svg)](https://packagist.org/packages/stichoza/skype-status-php) [![Total Downloads](https://img.shields.io/packagist/dt/Stichoza/skype-status-php.svg)](https://packagist.org/packages/stichoza/skype-status-php) [![Downloads Month](https://img.shields.io/packagist/dm/Stichoza/skype-status-php.svg)](https://packagist.org/packages/stichoza/skype-status-php) [![License](https://img.shields.io/packagist/l/Stichoza/skype-status-php.svg)](https://packagist.org/packages/stichoza/skype-status-php) [![Code Climate](https://img.shields.io/codeclimate/github/Stichoza/skype-status-php.svg)](https://codeclimate.com/github/Stichoza/skype-status-php)
 
 PHP class to get Skype user's online status
 ## Installation
