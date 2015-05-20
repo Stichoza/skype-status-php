@@ -6,8 +6,6 @@ skype-status-php
 PHP class to get Skype user's online status
 ## Installation
 
-**New!** Now available via [Composer](https://getcomposer.org/) :sunglasses:
-
 Install this package through [Composer](https://getcomposer.org/). Edit your project's `composer.json` file to require `stichoza/skype-status-php`.
 
 ```json
