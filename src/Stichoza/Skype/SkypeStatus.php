@@ -1,6 +1,8 @@
 <?php
 namespace Stichoza\Skype;
 
+use SimpleXMLElement;
+
 /**
  * Get user's Skype online status
  *
