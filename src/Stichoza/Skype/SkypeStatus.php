@@ -10,7 +10,7 @@ namespace Stichoza\Skype;
  */
 class SkypeStatus
 {
-    private $languageArray = array(
+    private $languageArray = [
         "Unknown",
         "Offline",
         "Online",
@@ -19,7 +19,7 @@ class SkypeStatus
         "Do Not Disturb",
         "Invisible",
         "SkypeME"
-    );
+    ];
 
     protected $xmlObject;
 
