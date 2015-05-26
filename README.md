@@ -10,7 +10,7 @@ Install this package through [Composer](https://getcomposer.org/). Edit your pro
 
 ```json
 "require": {
-    "stichoza/skype-status-php": "~2.0"
+    "stichoza/skype-status-php": "~2.1"
 }
 ```
 
