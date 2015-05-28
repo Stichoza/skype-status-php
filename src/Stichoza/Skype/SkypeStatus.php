@@ -12,6 +12,8 @@ use SimpleXMLElement;
  */
 class SkypeStatus
 {
+    private $xmlObject;
+    
     private $languageArray = [
         "Unknown",
         "Offline",
@@ -22,8 +24,6 @@ class SkypeStatus
         "Invisible",
         "SkypeME"
     ];
-
-    protected $xmlObject;
 
     public function __construct($username)
     {
