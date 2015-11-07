@@ -3,7 +3,10 @@ skype-status-php
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/Stichoza/skype-status-php.svg)](https://packagist.org/packages/stichoza/skype-status-php) [![Total Downloads](https://img.shields.io/packagist/dt/Stichoza/skype-status-php.svg)](https://packagist.org/packages/stichoza/skype-status-php) [![Downloads Month](https://img.shields.io/packagist/dm/Stichoza/skype-status-php.svg)](https://packagist.org/packages/stichoza/skype-status-php) [![License](https://img.shields.io/packagist/l/Stichoza/skype-status-php.svg)](https://packagist.org/packages/stichoza/skype-status-php) [![Code Climate](https://img.shields.io/codeclimate/github/Stichoza/skype-status-php.svg)](https://codeclimate.com/github/Stichoza/skype-status-php)
 
-PHP class to get Skype user's online status
+PHP class to get Skype user's online status.
+
+#### THIS PACKAGE DOES NOT WORK ANYMORE. Skype deprecated its XML response of status codes. I hope someday I will (or you will) find a way to make this package still work. Thanks! 🙂
+
 ## Installation
 
 Install this package through [Composer](https://getcomposer.org/). Edit your project's `composer.json` file to require `stichoza/skype-status-php`.
